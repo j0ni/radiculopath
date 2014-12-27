@@ -1,0 +1,17 @@
+{:site-title       "Diary of a Radiculopath"
+ :author           "J Irving"
+ :description      ""
+ :site-url         "http://blog.j0ni.ca/"
+ :post-root        "posts"
+ :tag-root         "tags"
+ :page-root        "pages"
+ :blog-prefix      "/blog"
+ :rss-name         "feed.xml"
+ :recent-posts     3
+ :post-date-format "yyyy-MM-dd"
+ :sass-src         nil
+ :sass-dest        nil
+ :resources        ["css" "js" "404.html"]
+ :keep-files       [".git"]
+ :disqus?          false
+ :disqus-shortname ""}
