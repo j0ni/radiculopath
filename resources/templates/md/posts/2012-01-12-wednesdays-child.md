@@ -1,4 +1,4 @@
-{:layout "post", :title "Wednesday's child"}
+{:tags ["Hazel"], :layout "post", :title "Wednesday's child"}
 
 I forgot to buy a toothbrush, and my electric one ran out of juice half-way through. It is testament to my pathological behaviour patterns that I have never in my life before heard an electric toothbrush run out of power.
 

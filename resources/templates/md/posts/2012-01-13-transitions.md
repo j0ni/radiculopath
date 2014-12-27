@@ -1,4 +1,4 @@
-{:layout "post", :title "Transitions"}
+{:tags ["Hazel"], :layout "post", :title "Transitions"}
 
 I'm having a tough time keeping track of everything. So many conversations, so many phone calls. And sometimes the things I've been saying over and over to different people and writing down here start repeating on me, coming back to me as if I heard them from someone else.
 

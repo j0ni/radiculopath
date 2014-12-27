@@ -1,4 +1,4 @@
-{:layout "post", :title "Ancestral Home"}
+{:tags ["Hazel"], :layout "post", :title "Ancestral Home"}
 
 Just a short one tonight, I need to be up early to make some calls.
 

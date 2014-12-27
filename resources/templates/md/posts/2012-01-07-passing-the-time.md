@@ -1,4 +1,4 @@
-{:layout "post", :title "Passing the time"}
+{:tags ["Hazel"], :layout "post", :title "Passing the time"}
 
 When I was 17 years old, my Nan died. She was very old (97) and in
 many ways her death was welcome - she'd been suffering from Alzheimers

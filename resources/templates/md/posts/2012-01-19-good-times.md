@@ -1,4 +1,4 @@
-{:layout "post", :title "Good times"}
+{:tags ["Hazel"], :layout "post", :title "Good times"}
 
 It's been a week I guess, and I haven't written anything down. The details seem so incremental and banal, and it munges together in my mind. Also, I'm now working, around my sister's schedule, so time is short. But I don't want to drop this effort to keep track of things, because it's useful.
 

@@ -32,19 +32,22 @@
 (defn file-list [dir]
   (file-seq (io/file dir)))
 
-(defn process-post [text]
-  (let [meta-map (-> text parse-map pr-str)
+(defn process-post [text tags]
+  (let [meta-map (-> text parse-map (merge tags) pr-str)
         content (parse-text text)
         join #(str/join "\n" %)]
     (-> content (conj meta-map) join)))
 
-(defn migrate-octopress [src-dir dst-dir]
-  (let [files (-> src-dir file-list rest)]
-    (doseq [in-file files]
-      (let [out-filename (-> (.getName in-file)
-                             (str/split #"\.")
-                             first
-                             (str ".md"))
-            out-file (io/file dst-dir out-filename)
-            res (-> in-file slurp process-post)]
-        (spit out-file res)))))
+(defn migrate-octopress
+  ([src-dir dst-dir tags]
+   (let [files (-> src-dir file-list rest)]
+     (doseq [in-file files]
+       (let [out-filename (-> (.getName in-file)
+                              (str/split #"\.")
+                              first
+                              (str ".md"))
+             out-file (io/file dst-dir out-filename)
+             res (-> in-file slurp (process-post {:tags tags}))]
+         (spit out-file res)))))
+  ([src-dir dst-dir]
+   (migrate-octopress src-dir dst-dir [])))

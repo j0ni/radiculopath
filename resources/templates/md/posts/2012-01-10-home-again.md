@@ -1,4 +1,4 @@
-{:layout "post", :title "Home again"}
+{:tags ["Hazel"], :layout "post", :title "Home again"}
 
 Well, I made it here intact, although my luggage isn't here yet.
 

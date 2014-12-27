@@ -1,4 +1,4 @@
-{:layout "post", :title "Clarifications"}
+{:tags ["Hazel"], :layout "post", :title "Clarifications"}
 
 The oncologist appointment is done, and I think that's it for our dealings with St. James', unless something happens and the crisis leads us to the emergency room. That's not the plan though, the plan is to be prepared and equipped, and to stay at home or at a push move mum out to St Gemma's Hospice.
 

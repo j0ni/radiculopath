@@ -1,4 +1,4 @@
-{:layout "post", :title "Alice is wise"}
+{:tags ["Hazel"], :layout "post", :title "Alice is wise"}
 
 My kids made cards for me to bring for mum. They're all wonderful, and capture each of their personalities beautifully. Alice is the most empathic person I've ever met, so I thought this was worth reproducing. It's the note inside the card she made.
 

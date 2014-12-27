@@ -7,11 +7,11 @@
  :page-root        "pages"
  :blog-prefix      "/blog"
  :rss-name         "feed.xml"
- :recent-posts     3
+ :recent-posts     10
  :post-date-format "yyyy-MM-dd"
  :sass-src         nil
  :sass-dest        nil
- :resources        ["css" "js" "404.html"]
+ :resources        ["css" "js" "fonts" "404.html"]
  :keep-files       [".git"]
  :disqus?          false
  :disqus-shortname ""}

@@ -1,4 +1,4 @@
-{:layout "post", :title "A Game of Soldiers"}
+{:tags ["Hazel"], :layout "post", :title "A Game of Soldiers"}
 
 Being articulate, pushy, and in LS8 can open a lot of doors, and apparently get you to the top of the waiting list for an electric bed - it will be delivered tomorrow afternoon. But what the social services giveth, brain cancer squats on.
 
