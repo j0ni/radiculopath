@@ -1,7 +1,7 @@
 {:site-title       "Diary of a Radiculopath"
  :author           "J Irving"
  :description      ""
- :site-url         "http://blog.j0ni.ca/"
+ :site-url         "http://j0ni.ca/blog"
  :post-root        "posts"
  :tag-root         "tags"
  :page-root        "pages"
@@ -14,4 +14,5 @@
  :resources        ["css" "js" "fonts" "404.html"]
  :keep-files       [".git"]
  :disqus?          false
- :disqus-shortname ""}
+ :disqus-shortname ""
+ :repl-port        4298}

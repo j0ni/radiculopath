@@ -11,8 +11,8 @@
     {% style "css/screen.css" %}
   </head>
   <body>
-    <nav class="navbar navbar-default" role="navigation">
-      <div class="container">
+    <nav class="navbar navbar-default row" role="navigation">
+      <div class="container col-md-8 col-md-offset-2">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -24,8 +24,8 @@
         </div>
         <!-- nav links -->
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li {% if home %} class="active" {% endif %}><a href="{{index-uri}}">Home</a></li>
+          <ul class="nav navbar-nav pull-right">
+            <li {% if home %} class="active" {% endif %}><a href="http://j0ni.ca">j0ni.ca</a></li>
             <li {% if archives %} class="active" {% endif %}><a href="{{archives-uri}}">Archives</a></li>
             {% for nav-page in navbar-pages %}
             <li {%ifequal page.uri nav-page.uri %} class="active" {% endifequal %}>
@@ -40,53 +40,20 @@
 
     <div id="wrapper" class="container">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-8 col-md-offset-2">
           <div id="content">
             {% block content %}
             {% endblock %}
           </div>
-        </div>
-
-        <div class="col-md-3 col-md-offset-1">
-          <div id="sidebar">
-            <div id="links">
-              <h3>Links</h3>
-              <ul class="list-unstyled">
-                <li><a href="http://j0ni.ca">j0ni.ca</a></li>
-                <li><a href="https://github.com/j0ni">github.com/j0ni</a></li>
-                <li><a href="https://keybase.io/j0ni">keybase.io/j0ni</a></li>
-                <li><a href="https://flickr.com/photos/m-j2040">Rachel's Flickr</a></li>
-                {% for page in sidebar-pages %}
-                <li><a href="{{page.uri}}">{{page.title}}</a></li>
-                {% endfor %}
-              </ul>
-            </div>
-            <div id="recent">
-              <h3>Recent Posts</h3>
-              <ul class="list-unstyled">
-                {% for post in latest-posts %}
-                <li><a href="{{post.uri}}">{{post.title}}</a></li>
-                {% endfor %}
-              </ul>
-            </div>
-            <div id="tags">
-              <h3>Tags</h3>
-              <ul class="list-unstyled">
-                {% for tag in tags %}
-                <li><a href="{{tag.uri}}">{{tag.name}}</a></li>
-                {% endfor %}
-              </ul>
-            </div>
-          </div>
+          <hr/>
+          <footer>
+            <p class="text-left">
+              Copyright &copy; 2014 J Irving -
+              Powered by <a href="http://cryogenweb.org">Cryogen</a>
+            </p>
+          </footer>
         </div>
       </div>
-      <hr/>
-      <footer>
-        <p class="text-left">
-          Copyright &copy; 2014 J Irving<br/>
-          Powered by <a href="http://cryogenweb.org">Cryogen</a>
-        </p>
-      </footer>
     </div>
     {% script "js/jquery-1.11.2.min.js" %}
     {% script "js/bootstrap.min.js" %}
@@ -94,4 +61,3 @@
     <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>
-
